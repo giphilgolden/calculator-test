@@ -1,0 +1,18 @@
+h1{
+    font-size: 70px;
+    text-align: center;
+    background-color: brown;
+    margin: 0;
+    padding: 25px 0 25px 0;
+}
+
+#All-Body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#All-Body div{
+    text-align: center;
+}

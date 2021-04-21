@@ -34,9 +34,9 @@ DivideButton.addEventListener("click", function() {
 })
 
 ResetButton.addEventListener("click", function() {
-    NumberOne.value = 0
-    NumberTwo.value = 0
+    NumberOne.value = ""
+    NumberTwo.value = ""
     Result.innerHTML = 0
-    ResultWords.innerHTML = 0
+    ResultWords.innerHTML = "0 Plus 0 Equals 0"
     Operation.innerHTML = "+"
 })
