@@ -1,18 +1,70 @@
-h1{
+#Title-Stuff{
     font-size: 70px;
     text-align: center;
-    background-color: brown;
+    background-color: chartreuse;
     margin: 0;
-    padding: 25px 0 25px 0;
+    padding: 0px 0 25px 0;
+}
+
+h3{
+    font-size: 35px;
+}
+
+#Box-1{
+    background-color: brown;
+    padding: 40px;
+}
+
+#Box-2{
+    background-color: cornflowerblue;
+    padding: 40px;
+}
+
+h1{
+    margin: 0;
 }
 
 #All-Body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
     flex-direction: column;
 }
 
 #All-Body div{
     text-align: center;
+}
+
+#Result-Box{
+    background-color: khaki;
+    height: 213px;
+    width: 276px;
+}
+
+#Result-Box h3{
+    position: relative;
+    top: 19%;
+}
+
+#Result-Box div{
+    position: relative;
+    top: 3%;
+    font-size: x-large;
+}
+
+#Box-Of-Boxes{
+    display: flex;
+}
+
+#Operation-Box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Equals-Box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
 }
