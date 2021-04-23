@@ -8,6 +8,10 @@ let MultiplyButton = document.querySelector("#Multiply")
 let DivideButton = document.querySelector("#Divide")
 let ResetButton = document.querySelector("#Reset")
 let ResultWords = document.querySelector("#Result-Words")
+let CalculatorBody = document.querySelector("#Calculator-Body")
+let InputBoxesButton = document.querySelector("#Input-Boxes-Button")
+let CalculatorButton = document.querySelector("#Calculator-Button")
+let AllBody = document.querySelector("#All-Body")
 
 AddButton.addEventListener("click", function() {
     Result.innerHTML = (Number(NumberOne.value) + Number(NumberTwo.value))
@@ -39,4 +43,14 @@ ResetButton.addEventListener("click", function() {
     Result.innerHTML = 0
     ResultWords.innerHTML = "0 Plus 0 Equals 0"
     Operation.innerHTML = "+"
+})
+
+InputBoxesButton.addEventListener("click", function(){
+    CalculatorBody.style.display = "none"
+    AllBody.style.display ="flex"  
+})
+
+CalculatorButton.addEventListener("click", function() {
+    CalculatorBody.style.display = "flex"
+    AllBody.style.display = "none"
 })

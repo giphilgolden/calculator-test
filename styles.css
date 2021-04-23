@@ -55,6 +55,16 @@ h1{
 
 #Box-Of-Boxes{
     display: flex;
+    margin-bottom: 20px;
+}
+
+#Operation-buttons{
+    margin-bottom: 20px;
+}
+
+#Operation-buttons button{
+    width: 55px;
+    height: 25px;
 }
 
 #Operation-Box{
@@ -67,4 +77,23 @@ h1{
     display: flex;
     justify-content: center;
     flex-direction: column; 
+}
+
+#Reset{
+    width: 70px;
+    height: 35px;
+}
+
+#Calculator-Body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#Main-Calculator-Body{
+    margin-top: 20px;
+    width: 400px;
+    height: 600px;
+    background-color: lightgray;
+    border-radius: 15%;
 }
